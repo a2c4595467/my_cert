@@ -97,7 +97,7 @@ https://okamerin.com/nc/title/684.htm
 ### ワイルドカード形式で作成
 
 ```
-$ docker run -e SSL_SUBJECT="*.hoge.jp" -v /docker_data/my_cert/cert_data/hoge.jp:/certs  paulczar/omgwtfssl
+$ docker run --rm -e SSL_SUBJECT="*.hoge.jp" -v /docker_data/my_cert/cert_data/hoge.jp:/certs  paulczar/omgwtfssl
 ```
 
 ## 設定
